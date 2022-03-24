@@ -1,0 +1,3 @@
+C:/Users/BERNARDO LOPES/Desktop/MFConnect/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/BERNARDO LOPES/Desktop/MFConnect/cmake-build-debug/CMakeFiles/MFConnect.dir
+C:/Users/BERNARDO LOPES/Desktop/MFConnect/cmake-build-debug/CMakeFiles/rebuild_cache.dir

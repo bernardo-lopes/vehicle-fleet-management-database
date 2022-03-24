@@ -1,0 +1,1 @@
+select matricula as 'Matrícula', timestampdiff(year,dm,curdate()) as Idade  from viatura order by timestampdiff(year,dm,curdate()) asc

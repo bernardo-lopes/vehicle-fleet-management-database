@@ -1,0 +1,1 @@
+select departamento as Departamento, count(*) as 'Nº de colaboradores' from colaborador group by departamento order by count(*) desc

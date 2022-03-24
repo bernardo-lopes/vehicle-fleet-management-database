@@ -1,0 +1,1 @@
+select abastecimento.a_data as 'Data', posto.marca as Gasolineira, posto.nome as Posto,  cast(preco-(((preco/litros)-gasolineira.desconto)*litros) as DECIMAL(9,2)) as 'Reembolso [€]' from (abastecimento inner join posto on abastecimento.nome=posto.nome) inner join gasolineira on gasolineira.marca=posto.marca order by a_data desc

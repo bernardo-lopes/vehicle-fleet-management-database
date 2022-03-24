@@ -1,0 +1,1 @@
+select  cast(avg(timestampdiff(year,dm,curdate())) as DECIMAL(9,1))  as 'Idade média da frota' from viatura

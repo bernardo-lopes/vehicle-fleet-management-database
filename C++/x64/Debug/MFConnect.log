@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  MFConnect.cpp
+  MFConnectDlg.cpp
+  myconnectorclassDB.cpp
+  Generating Code...
+x64\Debug\MFConnect.obj : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'

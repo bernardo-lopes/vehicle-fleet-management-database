@@ -1,0 +1,1 @@
+select combustivel as 'Combustível', count(*) as 'Nº de Viaturas' from viatura group by combustivel order by count(*) desc

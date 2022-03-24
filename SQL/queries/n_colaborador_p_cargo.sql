@@ -1,0 +1,1 @@
+select cargo as Cargo, count(*) as 'Nº de colaboradores' from colaborador group by cargo order by count(*) 

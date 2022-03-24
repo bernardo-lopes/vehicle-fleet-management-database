@@ -1,0 +1,1 @@
+select concat(month(a_data), "/", year(a_data)) as 'Período', cast((sum(case when tipo='Diesel' then preco else 0 end)) as DECIMAL(9,2)) as 'Consumo de diesel [€]', cast((sum(case when tipo='Gasolina' then preco else 0 end)) as DECIMAL(9,2)) as 'Consumo de gasolina [€]' from abastecimento group by concat(month(a_data), "/", year(a_data))

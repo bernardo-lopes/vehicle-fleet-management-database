@@ -1,0 +1,1 @@
+select abastecimento.nome as Posto, a.marca as Gasolineira,  count(*) as Abastecimentos from abastecimento inner join (select posto.nome, gasolineira.marca from posto inner join gasolineira on gasolineira.marca=posto.marca) as a on a.nome=abastecimento.nome group by abastecimento.nome order by count(*) desc

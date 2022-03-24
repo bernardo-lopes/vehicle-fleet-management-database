@@ -1,0 +1,1 @@
+select posto.nome as Posto, posto.marca as Gasolineira from posto left join abastecimento on abastecimento.nome=posto.nome where abastecimento.nome is null order by posto.nome 

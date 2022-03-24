@@ -1,0 +1,1 @@
+select matricula as 'Matrícula', consumo_medio as 'Consumo médio [L/100Km]' from viatura order by consumo_medio desc limit 10
